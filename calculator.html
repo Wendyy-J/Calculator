@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 
  <html lang="en">
  <head>
@@ -24,26 +24,26 @@
             <input type="button" class="button" value="7" onclick="display('7')"></input>
             <input type="button" class="button" value="8" onclick="display('8')"></input>
             <input type="button" class="button" value="9" onclick="display('9')"></input>
-            <button type="button" value="ln" onclick="display('Math.LN10')"></button>
-            <button type="button" value="Log" onclick="log10()"> log</button>
+            <input type="button" class="operator" value="ln" onclick="mathlog()"></input>
+            <input type="button" class="operator" value="Log" onclick="mathlog10()"></input>
             <input type="button" class="operator" value="/" onclick="display('/')"></input>
             <input type="button" class="button" value="4" onclick="display('4')"></input>
             <input type="button" class="button" value="5" onclick="display('5')"></input>
             <input type="button" class="button" value="6" onclick="display('6')"></input>
-            <button type="button"  value="exp" onclick="calc_exp()">exp</input>
-            <button type="button" value="sin" onclick="sin()">sin</button>
+            <input type="button" class="operator"  value="exp" onclick="exp()"></input>
+            <input type="button" class="operator" value="sin" onclick="mathsin()"></input>
             <input type="button" class="operator" value="x" onclick="display('*')"></input>
             <input type="button" class="button" value="1" onclick="display('1')"></input>
             <input type="button" class="button" value="2" onclick="display('2')"></input>
             <input type="button" class="button" value="3" onclick="display('3')"></input>
-            <button type="button" value="x^2" onclick="square()"> x<sup>2</sup></button>
-            <button type="button" value="cos" onclick="cos()">cos</button>
+            <input type="button" class="operator" value="x^2" onclick="pow()"></input>
+            <input type="button" class="operator" value="cos" onclick="mathcos()"></input>
             <input type="button" class="operator" value="-" onclick="display('-')"></input>
             <input type="button" class="button" value="." onclick="display('.')"></input>
             <input type="button" class="button" value="0" onclick="display('0')"></input>
             <input type="button" class="button equal-sign" value="=" onclick="solve()"></input>
-            <button type="button" value="sqrt2" onclick="sqrt2()">&radic;</button>
-            <button type="button" value="tan" onclick="tan()">tan</button>
+            <input type="button" class="operator" value="sqrt" onclick="sqrt()"></input>
+            <input type="button" class="operator" value="tan" onclick="mathtan()"></input>
             <input type="button" class="operator" value="+" onclick="display('+')"></input>
     </div>
 
